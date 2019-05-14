@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="PL">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="eClinic.css">
+<link href="https://fonts.googleapis.com/css?family=Nunito:600" rel="stylesheet">		
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:700" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		
+			
+			<nav id="topnav">
+			<a href="index.html"> <img class="logo" src="eClinic2.png" class="top" alt="eClinic"> </a>
+			<ul class="menu">	
+				<li><a href="Wyszukiwanie.html">Wyszukaj</a></li>
+				<li><a href="Rejestracja.html">Zarejestruj się</a></li>
+				<li><a href="#">Zaloguj się</a></li>
+				<li><a href="#">O nas</a></li>
+				
+				<!-- <li><a href="">Prawa pacjenta</a></li>	-->		
+				<li><a href="Kontakt.html">Kontakt</a></li>	
+			</ul>
+			
+		</nav>
+	
+	</header>
+	<article>
+		<section id="kontakt">
+			<form method="post" action="zarejestruj.php">
+				<h1>Rejestracja</h1>
+				<td><label for="">Imię:</label></td>
+				<td><input type="text" name="imie" value=""><br></td>
+				<td><label for="">Nazwisko:</label></td>
+				<td><input type="text" name="nazwisko" value=""><br></td>
+				<td><label for="">E-mail:</label></td>
+				<td><input type="email" name="email" value=""><br></td>
+				<td><label for="pass">Hasło:</label></td>
+				<td><input type="password" id="pass" name="haslo" minlength="8" required><br></td>
+				<td><label for="pass">Powtórz hasło:</label></td>
+				<td><input type="password" id="pass" name="haslo-powtorz" minlength="8" required><br></td>
+			<input type="submit" name="" value="Zarejestruj się">
+			</form>
+		</section>		
+	</article>
+	<footer>
+	<ul class="footer">
+				<li>Telefon: 123456789</li>
+				<li>Adres: Sosnowiec ul. Uli 2</li>
+				<li><a href="">Prawa pacjenta</a></li>
+				<li><a href="">Regulamin</a></li>
+				
+			</ul>
+	</footer>
+	
+
+</body>
+</html>
